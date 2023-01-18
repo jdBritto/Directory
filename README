@@ -43,3 +43,4 @@ git branch <new branch>: crea una nueva rama.
 git checkout <branch name>: se mueve a la rama especificada.
 git merge <branch name>: fusiona la rama actual con la rama especificada y produce un nuevo commit de esta fusión.
 git branch: lista las ramas generadas.
+
