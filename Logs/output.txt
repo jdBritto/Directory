@@ -1,0 +1,5 @@
+drwxr-xr-x 2 jefferson jefferson 4.0K Jan 16 07:06 2.File
+drwxr-xr-x 2 jefferson jefferson 4.0K Jan 16 07:06 3.File
+drwxr-xr-x 2 jefferson jefferson 4.0K Jan 16 14:20 4.File
+drwxr-xr-x 2 jefferson jefferson 4.0K Jan 16 15:26 1.Terminal_y_Linea_de_Comandos
+total 16K
