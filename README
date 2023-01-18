@@ -1,7 +1,8 @@
-#¿Por qué usar un sistema de control de versiones como Git?
+#¿Por qué usar un sistema de control de versiones como Git?*
 nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nuestro proyecto.
 
-Comandos básicos de git
+<!--  Comandos básicos de git   -->
+
 git init: inicializa un repositorio de GIT en la carpeta donde se ejecute el comando.
 git add: añade los archivos especificados al área de preparación (staging).
 git commit -m “commit description”: confirma los archivos que se encuentran en el área de preparación y los agrega al repositorio. con un mensaje 
