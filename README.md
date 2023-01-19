@@ -3,11 +3,11 @@ nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nue
 
 ## 📝 Table of Contents
 - [Comandos básicos](#basic-comand)
-- [Analisis verificacion](#analytic)
+- [Analisis / verificacion](#analytic)
 - [Backup volver en el tiempo](#restore)
 - [Ramas](#ramas)
-<!-- - [Setting up a local environment](#getting-started)
-- [Usage](#usage)
+- [Reiniciar](#reset)
+<!-- -- [Usage](#usage)
 - [Technology Stack](#tech-stack)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
@@ -36,7 +36,7 @@ nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nue
 - git reset <commit> --soft/hard: regresa al commit especificado, eliminando todos los cambios que se hicieron después de ese commit.
 - git checkout <commit/branch> <filename>: permite regresar al estado en el cual se realizó un commit o branch especificado, pero no elimina lo que está en el staging area.
 - git checkout – <filePath>: deshacer cambios en un archivo en estado modified (que ni fue agregado a staging)
-- git rm y git reset
+## 💡 git rm y git reset <a name="reset"></a>
 - git rm: Este comando nos ayuda a eliminar archivos de Git sin eliminar su historial del sistema de versiones. Esto quiere decir que si necesitamos recuperar el archivo solo debemos “viajar en el tiempo” y recuperar el último commit antes de borrar el archivo en cuestión.
 - git rm no puede usarse por sí solo, así nomás. Se debe utilizar uno de los flags para indicar a Git cómo eliminar los archivos que ya no se necesitan en la última versión del proyecto:
 
