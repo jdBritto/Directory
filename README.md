@@ -13,7 +13,7 @@ nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nue
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments) -->
 
-# 🧐 Comandos básicos de git <a name ="basic-comand"></a>
+# 🧐 <p align="center">Comandos básicos de git <a name ="basic-comand"></a></p>
 
 - git init: inicializa un repositorio de GIT en la carpeta donde se ejecute el comando.
 - git add: añade los archivos especificados al área de preparación (staging).
@@ -24,14 +24,14 @@ nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nue
 - git config --global user.email tu@email.com: configura un email.
 - git config --global user.name <Nombre como se verá en los commits>: configura un nombre.
 - git config --list: lista las configuraciones.
-## 💡 Analizar cambios en los archivos de un proyecto Git <a name="analytic"></a>
+## 💡<p align="center"> Analizar cambios en los archivos de un proyecto Git <a name="analytic"></a></p>
 - git log: lista de manera descendente los commits realizados.
 - git log --stat: además de listar los commits, muestra la cantidad de bytes añadidos y eliminados en cada uno de los archivos modificados.
 - git log --all --graph --decorate --oneline: muestra de manera comprimida toda la historia del repositorio de manera gráfica y embellecida.
 - git show filename: permite ver la historia de los cambios en un archivo, recientemente realizados.
 - git diff <commit1> <commit2>: compara diferencias entre en cambios confirmados.
 
-## 💡 Volver en el tiempo con branches y checkout <a name="restore"></a>
+## 💡<p align="center">Volver en el tiempo con branches y checkout <a name="restore"></a></p>
 
 - git reset <commit> --soft/hard: regresa al commit especificado, eliminando todos los cambios que se hicieron después de ese commit.
 - git checkout <commit/branch> <filename>: permite regresar al estado en el cual se realizó un commit o branch especificado, pero no elimina lo que está en el staging area.
@@ -48,7 +48,7 @@ nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nue
 - git reset --hard: Borra absolutamente todo. Toda la información de los commits y del área de staging se borra del historial.
 - git reset HEAD: No borra los archivos ni sus modificaciones, solo los saca del área de staging, de forma que los últimos cambios de estos archivos no se envíen al último commit. Si se cambia de opinión se los puede incluir nuevamente con git add.
 
-## Ramas o Branches en git <a name="ramas"></a>
+## <p align="center">Ramas o Branches en git <a name="ramas"></a></p>
 *Al crear una nueva rama se copia el último commit en esta nueva rama. Todos los cambios hechos en esta rama no se reflejarán en la rama master hasta que hagamos un merge.*
 
 - git branch <new branch>: crea una nueva rama.
