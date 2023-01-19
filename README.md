@@ -1,4 +1,7 @@
+
 # ¿Por qué usar un sistema de control de versiones como Git?
+=======
+
 nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nuestro proyecto.
 
 # Comandos básicos de git 
