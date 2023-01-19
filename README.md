@@ -1,26 +1,26 @@
-#¿Por qué usar un sistema de control de versiones como Git?*
+# ¿Por qué usar un sistema de control de versiones como Git?
 nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nuestro proyecto.
 
-<!--Comandos básicos de git-->
+# Comandos básicos de git 
 
-git init: inicializa un repositorio de GIT en la carpeta donde se ejecute el comando.
-git add: añade los archivos especificados al área de preparación (staging).
-git commit -m “commit description”: confirma los archivos que se encuentran en el área de preparación y los agrega al repositorio. con un mensaje 
-git commit -am “commit description”: añade al staging area y hace un commit mediante un solo comando. (No funciona con archivos nuevos)
-git status: ofrece una descripción del estado de los archivos (untracked, ready to commit, nothing to commit).
-git rm (. -r, filename) (–cached): remueve los archivos del index.
-git config --global user.email tu@email.com: configura un email.
-git config --global user.name <Nombre como se verá en los commits>: configura un nombre.
-git config --list: lista las configuraciones.
+### git init: inicializa un repositorio de GIT en la carpeta donde se ejecute el comando.
+### git add: añade los archivos especificados al área de preparación (staging).
+### git commit -m “commit description”: confirma los archivos que se encuentran en el área de preparación y los agrega al repositorio. con un mensaje 
+### git commit -am “commit description”: añade al staging area y hace un commit mediante un solo comando. (No funciona con archivos nuevos)
+### git status: ofrece una descripción del estado de los archivos (untracked, ready to commit, nothing to commit).
+### git rm (. -r, filename) (–cached): remueve los archivos del index.
+### git config --global user.email tu@email.com: configura un email.
+### git config --global user.name <Nombre como se verá en los commits>: configura un nombre.
+### git config --list: lista las configuraciones.
 Analizar cambios en los archivos de un proyecto Git
-git log: lista de manera descendente los commits realizados.
-git log --stat: además de listar los commits, muestra la cantidad de bytes añadidos y eliminados en cada uno de los archivos modificados.
-git log --all --graph --decorate --oneline: muestra de manera comprimida toda la historia del repositorio de manera gráfica y embellecida.
-git show filename: permite ver la historia de los cambios en un archivo, recientemente realizados.
-git diff <commit1> <commit2>: compara diferencias entre en cambios confirmados.
+### git log: lista de manera descendente los commits realizados.
+### git log --stat: además de listar los commits, muestra la cantidad de bytes añadidos y eliminados en cada uno de los archivos modificados.
+### git log --all --graph --decorate --oneline: muestra de manera comprimida toda la historia del repositorio de manera gráfica y embellecida.
+### git show filename: permite ver la historia de los cambios en un archivo, recientemente realizados.
+### git diff <commit1> <commit2>: compara diferencias entre en cambios confirmados.
 Volver en el tiempo con branches y checkout
-git reset <commit> --soft/hard: regresa al commit especificado, eliminando todos los cambios que se hicieron después de ese commit.
-git checkout <commit/branch> <filename>: permite regresar al estado en el cual se realizó un commit o branch especificado, pero no elimina lo que está en el staging area.
+### git reset <commit> --soft/hard: regresa al commit especificado, eliminando todos los cambios que se hicieron después de ese commit.
+### git checkout <commit/branch> <filename>: permite regresar al estado en el cual se realizó un commit o branch especificado, pero no elimina lo que está en el staging area.
 git checkout – <filePath>: deshacer cambios en un archivo en estado modified (que ni fue agregado a staging)
 git rm y git reset
 git rm:
