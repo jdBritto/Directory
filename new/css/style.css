@@ -83,7 +83,10 @@ p,h1,h2,h3,h4,h5,h6
     isolation: isolate;
 }
 .contanier{
-  
+  width: 75%;
+  padding: 2em;
+  text-align: center;
+  margin: 0 auto;
 }
 #container{
   width: 70%;
