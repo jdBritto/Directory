@@ -5,13 +5,13 @@ nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nue
 - [Comandos básicos](#basic-comand)
 - [Analisis verificacion](#analytic)
 - [Backup volver en el tiempo](#restore)
-- [Future Scope](#future-scope)
-- [Setting up a local environment](#getting-started)
+- [Ramas](#ramas)
+<!-- - [Setting up a local environment](#getting-started)
 - [Usage](#usage)
 - [Technology Stack](#tech-stack)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgments](#acknowledgments) -->
 
 # 🧐 Comandos básicos de git <a name ="basic-comand"></a>
 
@@ -50,7 +50,7 @@ nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nue
 - git reset --hard: Borra absolutamente todo. Toda la información de los commits y del área de staging se borra del historial.
 - git reset HEAD: No borra los archivos ni sus modificaciones, solo los saca del área de staging, de forma que los últimos cambios de estos archivos no se envíen al último commit. Si se cambia de opinión se los puede incluir nuevamente con git add.
 
-## Ramas o Branches en git
+## Ramas o Branches en git <a name="ramas"></a>
 *Al crear una nueva rama se copia el último commit en esta nueva rama. Todos los cambios hechos en esta rama no se reflejarán en la rama master hasta que hagamos un merge.*
 
 - git branch <new branch>: crea una nueva rama.
