@@ -84,26 +84,11 @@ p,h1,h2,h3,h4,h5,h6
 #__next {
     isolation: isolate;
 }
-<<<<<<< HEAD
 .contanier{
   width: 75%;
   padding: 2em;
   text-align: center;
   margin: 0 auto;
-}
-#container{
-=======
-/* #container{
->>>>>>> master
-  width: 70%;
-  padding: 1em;
-  text-align: left;
-  border: 1px solid #DDD;
-  margin: 0 auto;
-} */
-.container{
-  display: flex;
-  max-width: 100%;
 }
 .container h1{
   padding: 1.5em;
