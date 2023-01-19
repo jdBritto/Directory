@@ -13,7 +13,7 @@ nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nue
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments) -->
 
-# 🧐 <p align="center">Comandos básicos de git <a name ="basic-comand"></a></p>
+# <p align="center">🧐Comandos básicos de git <a name ="basic-comand"></a></p>
 
 - git init: inicializa un repositorio de GIT en la carpeta donde se ejecute el comando.
 - git add: añade los archivos especificados al área de preparación (staging).
@@ -24,6 +24,7 @@ nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nue
 - git config --global user.email tu@email.com: configura un email.
 - git config --global user.name <Nombre como se verá en los commits>: configura un nombre.
 - git config --list: lista las configuraciones.
+- git config --global credential.helper store  guarda los datos del usuario remoto para subir al repositorio en la nube
 ## 💡<p align="center"> Analizar cambios en los archivos de un proyecto Git <a name="analytic"></a></p>
 - git log: lista de manera descendente los commits realizados.
 - git log --stat: además de listar los commits, muestra la cantidad de bytes añadidos y eliminados en cada uno de los archivos modificados.
