@@ -1,4 +1,9 @@
-[Imgur](https://i.imgur.com/mDUSNyd.png)
+<p align="center">
+    <a href="" rel="noopener">
+        <img src="https://i.imgur.com/mDUSNyd.png" alt="Logo Apology">
+    </a>
+</p>
+
 # ¿Por qué usar un sistema de control de versiones como Git?
 nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nuestro proyecto.
 <div align="center">
