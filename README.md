@@ -1,13 +1,14 @@
 # ¿Por qué usar un sistema de control de versiones como Git?
 nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nuestro proyecto.
-<div align="center" ?style=plastic&logo=appveyor>
+<div align="center">
 
-[![Hackathon](https://img.shields.io/badge/hackathon-name-orange.svg)](http://hackathon.url.com)
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
-[![las-commit](https://img.shields.io/github/last-commit/jdBritto/DIrectory)]()
+![GitHub last commit](https://img.shields.io/github/last-commit/jdBritto/Directory?color=blue)
+![jdBritto](https://img.shields.io/badge/jdBritto-welcome-brightgreen)
+![GitHub pull request check state](https://img.shields.io/github/status/s/pulls/jdBritto/Directory/1)
+![GitHub repo size](https://img.shields.io/github/repo-size/jdBritto/Directory?color=greem&label=peso%20repo&logo=jeff&logoColor=red&style=plastic)
+![GitHub](https://img.shields.io/github/license/jdBritto/Directory)
+
+
 </div>
 ## 📝 Table of Contents
 - [Comandos básicos](#basic-comand)
