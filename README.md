@@ -1,6 +1,6 @@
 <p align="center">
     <a href="" rel="noopener">
-        <img src="https://i.imgur.com/mDUSNyd.png" alt="Logo Apology">
+        <img width=100px height=100px src="https://i.imgur.com/mDUSNyd.png" alt="Logo Apology">
     </a>
 </p>
 
