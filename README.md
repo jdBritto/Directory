@@ -23,7 +23,7 @@ nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nue
 - [Backup volver en el tiempo](#restore)
 - [Ramas](#ramas)
 - [Reiniciar](#reset)
-<!-- -- [Usage](#usage)
+<!--[Usage](#usage)
 - [Technology Stack](#tech-stack)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
