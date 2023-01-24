@@ -63,13 +63,13 @@ Para esto debes entrar a la Configuración de Llaves SSH en GitHub, crear una nu
 
 Ahora podemos actualizar la URL que guardamos en nuestro repositorio remoto, solo que, en vez de guardar la URL con HTTPS, vamos a usar la URL con SSH:
 
-ssh
-git remote set-url origin url-ssh-del-repositorio-en-github
-Comandos para copiar la llave SSH:
--Mac:
+- ssh
+- git remote set-url origin url-ssh-del-repositorio-en-github
+# Comandos para copiar la llave SSH:
+ -Mac:
 
-pbcopy < ~/.ssh/id_rsa.pub
-Windows (Git Bash):
-clip < ~/.ssh/id_rsa.pub
-Linux (Ubuntu):
-cat ~/.ssh/id_rsa.pub
+- pbcopy < ~/.ssh/id_rsa.pub
+- Windows (Git Bash):
+- clip < ~/.ssh/id_rsa.pub
+# Linux (Ubuntu):
+- cat ~/.ssh/id_rsa.pub
