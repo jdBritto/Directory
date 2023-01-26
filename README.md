@@ -1,6 +1,6 @@
 <p align="center">
     <a href="#" rel="noopener">
-        <img width=100px height=100px src="[https://i.imgur.com/mDUSNyd.png](https://i.imgur.com/NhBBsZ9.png)" alt="Logo Apology">
+        <img width=40% height=40%x src="https://i.imgur.com/NhBBsZ9.png" alt="Logo Apology">  
         
     </a>
 </p>
