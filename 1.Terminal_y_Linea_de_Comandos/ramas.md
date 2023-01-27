@@ -25,10 +25,10 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
+- [Comandos](#comand_basic)
 - [Usage](#usage)
 
-# 🧐 Manejo de ramas  <a name = "getting_started"></a>
+# 🧐 Manejo de ramas
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -45,18 +45,27 @@ Las ramas nos permiten hacer cambios a nuestros archivos sin modificar la versi�
 
 Si, estando en otra rama, modificamos los archivos y hacemos commit, tanto el historial ``(git log)`` como los archivos serán afectados. La ventaja que tiene usar ramas es que las modificaciones solo afectarán a esa rama en particular. Si luego de ``“guardar”`` los archivos ``(usando commit)`` nos movemos a otra rama ``(git checkout otraRama)`` veremos como las modificaciones de la rama pasada no aparecen en la otraRama.
 
-# Comandos para manejo de ramas en GitHub
-- `Crear una rama:`
+# Comandos para manejo de ramas en GitHub <a name = "comand_basic"></a>
+- **Crear una rama:**
 ````
 git branch branchName
 ````
-- Movernos a otra rama:
+- **Movernos a otra rama:**
+````
 git checkout branchName
-- Crear una rama en el repositorio local:
+````
+- **Crear una rama en el repositorio local:**
+````
 git branch nombre-de-la-rama o git checkout -b nombre-de-la-rama.
-Publicar una rama local al repositorio remoto:
+````
+
+- **Publicar una rama local al repositorio remoto:**
+````
 git push origin nombre-de-la-rama.
-Recuerda que podemos ver gráficamente nuestro entorno y flujo de trabajo local con Git utilizando el comando gitk. Gitk fue el primer visor gráfico que se desarrolló para ver de manera gráfica el historial de un repositorio de Git.
+````
+
+Recuerda que podemos ver gráficamente nuestro entorno y flujo de trabajo local con Git utilizando el comando **gitk**.
+Gitk fue el primer visor gráfico que se desarrolló para ver de manera gráfica el historial de un repositorio de Git.
 
 
 >Repaso: [Qué es branch.](https://platzi.com/clases/1557-git-github/19947-que-es-un-branch-rama-y-como-funciona-un-merge-en-/)
