@@ -66,7 +66,7 @@ git push origin nombre-de-la-rama.
 
 Recuerda que podemos ver gráficamente nuestro entorno y flujo de trabajo local con Git utilizando el comando **gitk**.
 Gitk fue el primer visor gráfico que se desarrolló para ver de manera gráfica el historial de un repositorio de Git.
-
+----
 
 >Repaso: [Qué es branch.](https://platzi.com/clases/1557-git-github/19947-que-es-un-branch-rama-y-como-funciona-un-merge-en-/)
 
