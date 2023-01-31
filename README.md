@@ -159,4 +159,12 @@ git merge <branch name>
 ```
 git branch
 ```
+
+# <p align="center">Comandos para revisión y comparación en GitHub <a name="comparar"></a></p>
+- ``git status``: estado de archivos en el repositorio.
+- ``git log``: historia entera del archivo.
+- ``git log --stat``: cambios específicos en el archivo a partir de un commit.
+- ``git show``: cambios históricos y específicos hechos en un archivo.
+- ``git diff “codigo de version 1” “codigo de version 2”``: comparar cambios entre versiones.
+- ``git diff``: comparar directorio con staging.
 ## Use costume all git consol bash
