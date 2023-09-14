@@ -5,7 +5,7 @@ import './css/normalize.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <PrimariComponent titulo="Esta session es de titulo" subtitulo="Curso de react"/>
+    <PrimariComponent titulo="Esta session es de titulo" subtitulo="Curso de react" subtitulo={4}/>
   </React.StrictMode>,
 )
 
