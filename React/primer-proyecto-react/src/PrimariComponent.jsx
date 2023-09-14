@@ -21,3 +21,4 @@ export const PrimariComponent = ( {titulo, subtitulo} ) => {
   )
 }
 
+ 
