@@ -67,6 +67,12 @@ h2 {
 .logo img {
   width: 25rem;
   height: 20rem;
-  filter: brightness(1.1);
+  filter: brightness(1.2);
   mix-blend-mode: lighten;
+}
+.main p,h1{ 
+  color: #ffffff;
+}
+.main h2{
+  color: var(--primari-color);
 }
