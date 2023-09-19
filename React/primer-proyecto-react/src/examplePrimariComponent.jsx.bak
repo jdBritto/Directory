@@ -8,6 +8,7 @@ const funcion = () => 1 + 1
 const objeto = { nombre: ' Curso de Javascript', duracion: 4 }
 const fecha = new Date()
 
+import PropTypes  from 'prop-types'
 
 
 export const PrimariComponent = ( {titulo, subtitulo} ) => {
@@ -21,4 +22,13 @@ export const PrimariComponent = ( {titulo, subtitulo} ) => {
   )
 }
 
- 
+ PrimariComponent.PropTypes={
+    titulo: PropTypes.string.isRequired,
+    subtitulo: PropTypes.number.isRequired
+
+ }
+
+ PrimariComponent.defaultProps = {
+    titulo:'Curso de React',
+    subtitulo: 'Seccion de Props'
+ }

@@ -1,40 +1,54 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 :root {
   --primari-color: yellow;
-  --second-color: rgb(108, 108, 108);
+  --second-color: rgba(63, 82, 112, 0.744);
   --three-color: #ffffff;
+  --font-general: 'Fira Sans', sans-serif;
+  --background-home: linear-gradient(90deg, rgba(0, 209, 196, 1) 0%, rgb(2, 0, 47) 6%, rgba(0, 157, 147, 0.8687675753895308) 50%, rgb(3, 0, 39) 93%, rgba(0, 213, 200, 1) 100%);
 }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: var(--font-general);
   /* =10px */
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
+
 /* Establece el tamaño base en 10px lo que facilita la conversión */
 body {
   font-size: 1.6rem;
   /* =16px */
-  background-color: var(--second-color);
+  background: var(--background-home);
 }
+
 a {
   color: var(--three-color);
   text-decoration: none;
 }
+
 h1 {
   font-size: 3.2rem;
+  color: #ffffff;
   /* =32px */
+}
+p{
+  color: #ffffff;
 }
 h2 {
   font-size: 2.4rem;
   /* =24px */
 }
+
 .container {
   text-align: center;
 }
+
 /* Estilos para el contenedor principal */
 .flex-container {
   display: flex;
@@ -44,35 +58,80 @@ h2 {
   /* Centrar verticalmente */
   height: 10vh;
   /* Ajustar la altura para centrar verticalmente */
-  background-color: #333;
+  background-color: var(--background-home);
   /* Cambiar el color de fondo a gris oscuro */
+  -webkit-box-shadow: 6px 6px 26px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 6px 6px 26px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 6px 6px 26px 0px rgba(0, 0, 0, 0.3);
 }
+
 /* Estilos para la lista */
 .flex-list {
   list-style: none;
   display: flex;
 }
+
 .flex-list li {
   margin-right: 3.5rem;
 }
+.flex-list i{
+  color: aliceblue;
+  padding: 1rem;
+}
 /* Estilos para los enlaces */
 .flex-list a {
+  display: inline-block;
   font-size: 2.5rem;
+  font-weight: bold;
   /* Tamaño de fuente */
   color: white;
   /* Color del texto */
   text-decoration: none;
+  text-shadow: 2px 9px 20px greenyellow, 2px -9px 15px black;
+  transition: transform 0.3s ease;
+  
   /* Eliminar subrayado de enlaces */
 }
+.flex-list a:hover{
+  color: rgba(85, 85, 85, 0.603);
+  text-shadow: 2px 9px 20px greenyellow, 2px -9px 15px rgb(255, 255, 255);
+  transform: scale(1.1);
+}
 .logo img {
-  width: 25rem;
-  height: 20rem;
+  display: inline-block;
+  width: 15rem;
+  height: 15rem;
   filter: brightness(1.2);
   mix-blend-mode: lighten;
+  transition: transform 0.3s ease;
 }
-.main p,h1{ 
-  color: #ffffff;
+.logo img:hover{
+  filter: brightness(0.8);
+  mix-blend-mode: screen;
+  transform: scale(1.1);
 }
-.main h2{
+
+.main p{
+  position: relative;
+  width: 928px;
+  height: auto;
+  left: 270px;
+  text-align: justify;
+}
+.footer-v{
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  bottom: 0;
+  padding-left: 3rem;
+  position: absolute;
+}
+.footer-v h2 {
+  font-size: 1.5rem;
   color: var(--primari-color);
+}
+.footer-v span{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }

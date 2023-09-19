@@ -1,0 +1,23 @@
+import { useState } from "react"
+
+export const AgregarTareas = ({ agregarTarea }) => {
+    const [inputValue, setInputValue] = useState('')
+    const onInputChange = ({ target }) => {
+        setInputValue(target.value)
+    }
+    const onSubmit = (event) => {
+        
+        event.preventDefault()
+        agregarTarea(inputValue)
+    }
+    return (
+        <form onSubmit={onSubmit}>
+            <input
+                type="AgregarTareas"
+                placeholder="Ingrese la tarea realizada"
+                value={inputValue}
+                onChange={onInputChange}
+            />
+        </form>
+    )
+}

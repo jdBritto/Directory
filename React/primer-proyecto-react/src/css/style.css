@@ -1,0 +1,31 @@
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    background-color: black;
+    color: white;
+  }
+
+  #root{
+    width: 1920px;
+    height: 1080px;
+  }
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 650px;
+    height: 420px;
+}
+.contenedor ul{
+  display: flex;
+  flex-direction: column;
+}
+
+  
