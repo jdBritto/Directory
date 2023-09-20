@@ -11,6 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <PrimariComponent titulo="Esta session es de titulo" subtitulo='Seccion PROPS 123'/> */}
     {/* <ListadoApp/> */}
-    <UserApp></UserApp>
+    <UserApp />
   </React.StrictMode>,
 )
