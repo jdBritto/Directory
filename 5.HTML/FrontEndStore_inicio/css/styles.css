@@ -2,7 +2,7 @@
     --primary: #9c27b0;
     --primaryblack: #891190;
     --secundary: #ffce00;
-    --secundaryBlack: rgb(233, 287, 2);
+    --secundaryBlack: rgb(253, 233, 4);
     --whitch: #fff;
     --black: #000;
 
@@ -40,6 +40,7 @@ a {
 
 img {
     max-width: 100%;
+    width: 100%;
 }
 
 .contenedor {
@@ -175,7 +176,7 @@ h3 {
 /* .nosotros__contenido{} */
 .nosotros__imagen{
     grid-row: 1/2;
-    width: 100%;
+    /* width: 100%; */
 }
 @media(min-width: 768px){
     .nosotros__imagen{
@@ -198,8 +199,47 @@ h3 {
 }
 
 .bloque__imagen{
-    width: 100%;
+    /* width: 100%; */
 }
 .bloque__titulo{
     margin: 0;
+}
+/** Camisa Product **/
+@media (min-width: 768px){ 
+    .camisa{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.camisa__contenido{}
+.camisa__imagen{}
+/** Formulario **/
+.formulario{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+.formulario__campo{
+    border: 1rem solid var(--primaryblack);
+    background-color: transparent;
+    color: var(--whitch);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    appearance: none;
+}
+.formulario__submit{
+    background-color: var(--secundary);
+    border: none;
+    font-size: 2rem;
+    font-family: var(--fontPrimary);
+    padding: 2rem;
+    transition: background-color .3s ease;
+    grid-column: 1/3;
+}
+.formulario__submit:hover{
+    cursor: pointer;
+    background-color: var(--secundaryBlack);
 }
