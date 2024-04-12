@@ -122,9 +122,11 @@ h3 {
 .product{
     background-color: var(--primaryblack);
     padding: 1rem;
+    border-radius: 1.5rem;
 }
 .product__imagen{
     width: 100%;
+    border-radius: 1.5rem;
 }
 .product__informacion{}
 .product__nombre{

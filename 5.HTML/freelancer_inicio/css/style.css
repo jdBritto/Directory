@@ -5,6 +5,12 @@
     --secundario: #0097A7;
     --gris: #757575;
     --grisClaro: #DFE9F3;
+    --primer-color:#ffc107;
+    --second-color:#0097a7;
+    --gris:#757575;
+    --grisClaro:#DFE9F3;
+
+    --font-primaria: ´Krub´, sans-serif;
 }
 /*  Globales **/
 html {
