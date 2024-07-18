@@ -13,4 +13,4 @@ resultado = Math.floor(Math.random() * 30);
 
 
 
-console.log(resultado);
+console.log(resultado); 
