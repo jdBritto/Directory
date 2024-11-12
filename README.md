@@ -1,6 +1,6 @@
 <p align="center">
     <a href="#" rel="noopener">
-        📑
+        📑<i class="fa-solid fa-code"></i>
     </a>
 </p>
 <div align="center">
